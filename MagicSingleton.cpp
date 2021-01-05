@@ -10,4 +10,4 @@ MagicSingleton& MagicSingleton::getInstance()
 MagicSingleton::MagicSingleton()
 {
 	std::cout << "constructor called" << std::endl;
-}
+} 

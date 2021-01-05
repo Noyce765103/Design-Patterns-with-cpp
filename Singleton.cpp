@@ -18,5 +18,5 @@ const Singleton* Singleton::getInstance()
 
 Singleton::~Singleton()
 {
-
+	cout << "destructor called" << endl;
 }

@@ -10,7 +10,7 @@ class User1 :public Observer
 {
 	virtual void Update(void* pArg)
 	{
-		cout << "User1 Got News:" << (char*) pArg << endl;
+		cout << "User1 Got News:" << reinterpret_cast<char*>(pArg) << endl;
 	}
 };
 
@@ -18,7 +18,7 @@ class User2 :public Observer
 {
 	virtual void Update(void* pArg)
 	{
-		cout << "User2 Got News:" << (char*) pArg << endl;
+		cout << "User2 Got News:" << reinterpret_cast<char*>(pArg) << endl;
 	}
 };
 
